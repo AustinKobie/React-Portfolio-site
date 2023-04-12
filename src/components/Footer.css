@@ -1,0 +1,23 @@
+.footer {
+    background-color:blue;  
+}
+
+.section__padding {
+    padding:4rem 4rem;
+}
+
+.sb__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb__footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
