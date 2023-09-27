@@ -1,23 +1,62 @@
+/* Existing styles for sticky footer */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
 .footer {
-    background-color:blue;  
-}
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  
+ 
 
-.section__padding {
-    padding:4rem 4rem;
+  background-color: #353b53;
+  color: white;
 }
+/* End of sticky footer styles */
 
-.sb__footer {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Your existing footer styles */
 .sb__footer-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 2rem;
+  display: flex;
+  gap: 20px;
+}
+
+.sb__footer-links-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.sb__footer-links-div h4 {
+  margin-bottom: 10px;
+}
+
+/* Three-column layout styles */
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 10px; /* Adjust as needed */
+}
+
+/* Styles for the copyright section */
+.copyright {
+  text-align: center;
+  padding: 20px;
+  
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
