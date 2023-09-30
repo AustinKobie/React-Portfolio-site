@@ -5,7 +5,9 @@ html, body {
   padding: 0;
 }
 
-
+p {
+  color: white;
+}
 
 
 
@@ -46,8 +48,9 @@ html, body {
 
 .footer-column {
   flex: 1;
-  padding: 10px; /* Adjust as needed */
-}
+  padding: 10px;
+  text-align: center;
+} 
 
 /* Styles for the copyright section */
 .copyright {

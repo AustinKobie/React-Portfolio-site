@@ -12,7 +12,7 @@ export default function About() {
         <p>-Software Enginner</p>
       </div>
       <div className="about-me">
-        <p>
+        <p className="abm">
           I am a skilled software developer with expertise in databases,
           frameworks, and programming languages such as DBeaver, ElephantSQL,
           NoSQL, PostgreSQL, Bootstrap, Flask, NodeJs, Google API Services,

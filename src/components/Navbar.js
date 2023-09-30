@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <BrowserRouter>
       <nav>
-        <h3>Portfolio</h3>
+        <h3>Austin Kobie</h3>
         <div className="center-link">
           <ul>
             <li>

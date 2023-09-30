@@ -1,16 +1,16 @@
-import React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
-import './Footer.css';
+import React from "react";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import Link from "@mui/material/Link";
+import "./Footer.css";
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
-      {'Copyright © Austin Kobie '}
+      {"Copyright © Austin Kobie "}
       {new Date().getFullYear()}
-      {'.'}
+      {"."}
     </Typography>
   );
 }
@@ -20,13 +20,13 @@ const defaultTheme = createTheme();
 export default function Footer() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Container component="footer" >
+      <Container component="footer">
         <div className="footer">
           <div className="sb__footer section__padding">
             <div className="footer-columns">
               {/* Column 1 */}
               <div className="footer-column">
-                <h4>Social</h4>
+                <h2>Social</h2>
                 <a href="https://www.linkedin.com/in/austin-kobie/">
                   <p>LinkedIn</p>
                 </a>
@@ -34,16 +34,16 @@ export default function Footer() {
                   <p>GitHub</p>
                 </a>
                 <a href="https://www.instagram.com/austinkobie/">
-                    <p>Instagram</p>
+                  <p>Instagram</p>
                 </a>
                 <a href="https://twitter.com/AustinKobie">
-                    <p>Twitter</p>
+                  <p>Twitter</p>
                 </a>
               </div>
 
               {/* Column 2 */}
               <div className="footer-column">
-                <h4>Other</h4>
+                <h2>Other</h2>
                 <p>n/a</p>
                 <p>n/a</p>
                 <p>n/a</p>
@@ -51,7 +51,7 @@ export default function Footer() {
 
               {/* Column 3 */}
               <div className="footer-column">
-                <h4>Contact</h4>
+                <h2>Contact</h2>
                 <p>Austinkobie1@gmail.com</p>
                 <p>Cape Coral, Fl</p>
                 <p>239-860-0898</p>
@@ -59,7 +59,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-       
+
         <div className="copyright">
           <Copyright />
         </div>
